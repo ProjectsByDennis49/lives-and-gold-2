@@ -117,7 +117,7 @@ function quest1 () {
         quest2()
     }
     if (controller.B.isPressed()) {
-        adventure.addToTextlog("Hello new player! This is a game similar to the MCAS exam where you click from the selected answer choices.")
+        adventure.addToTextlog("Hello new player! This is a multiple-choice algebra game.")
         adventure.addToTextlog("Press (A) to start.")
         pauseUntil(() => controller.anyButton.isPressed())
         if (controller.A.isPressed()) {
