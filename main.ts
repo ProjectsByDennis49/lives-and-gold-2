@@ -50,7 +50,7 @@ function quest3 () {
         `)
     adventure.addToTextlog("Problem 2: 6x=4x-1")
     adventure.addToTextlog("Press (A) if the answer is x=-8.")
-    adventure.addToTextlog("Press (B) if the answer is x=-1.")
+    adventure.addToTextlog("Press (B) if the answer is x=-1/2.")
     pauseUntil(() => controller.anyButton.isPressed())
     if (controller.A.isPressed()) {
         game.gameOver(false)
